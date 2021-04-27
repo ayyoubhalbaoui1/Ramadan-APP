@@ -4,7 +4,7 @@ import { StyleSheet, TouchableOpacity, Text } from "react-native";
 export default function BackButton({ onPress }: any) {
   return (
     <TouchableOpacity onPress={onPress} style={styles.appButtonContainer}>
-      <Text style={styles.appButtonText}></Text>
+      <Text style={styles.appButtonText}>Go Back</Text>
     </TouchableOpacity>
   );
 }
@@ -12,18 +12,15 @@ export default function BackButton({ onPress }: any) {
 const styles = StyleSheet.create({
   
   appButtonContainer: {
-    elevation: 8,
-    borderTopRightRadius: 10,
-    borderBottomEndRadius: 10,
     backgroundColor: "#FFF",
     width: "20%",
     position: "absolute",
     left: 0,
-    marginTop: 30,
+    marginTop: 784,
   },
   appButtonText: {
     fontSize: 14,
-    color: "#454EAF",
+    color: "#FFF",
     fontWeight: "bold",
     alignSelf: "center",
     textTransform: "uppercase",

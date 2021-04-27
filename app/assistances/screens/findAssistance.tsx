@@ -35,12 +35,7 @@ export default function findAssistance({ history }: any) {
   };
 
   return (
-    <ImageBackground
-      style={styles.imageBackground}
-      source={require("../../../assets/night.png")}
-    >
       <Map data={allAssistances && allAssistances} name="assistances" />
-    </ImageBackground>
   );
 }
 
@@ -49,7 +44,5 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#fff",
   },
-  imageBackground: {
-    flex: 1,
-  },
+  
 });

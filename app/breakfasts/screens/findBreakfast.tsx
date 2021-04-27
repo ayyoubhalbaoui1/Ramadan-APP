@@ -25,13 +25,8 @@ export default function findBreakfast({ history }: any) {
     getAllBreakfasts();
   }, []);
 
-  
   return (
-    <ImageBackground
-      style={styles.imageBackground}
-    >
       <Map data={allBreakfasts && allBreakfasts  } name="breakfasts"  />
-    </ImageBackground>
   );
 }
 
