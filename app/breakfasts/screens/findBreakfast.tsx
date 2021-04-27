@@ -29,7 +29,6 @@ export default function findBreakfast({ history }: any) {
   return (
     <ImageBackground
       style={styles.imageBackground}
-      source={require("../../../assets/night.png")}
     >
       <Map data={allBreakfasts && allBreakfasts  } name="breakfasts"  />
     </ImageBackground>

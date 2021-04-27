@@ -7,16 +7,13 @@ export default function Splash({history} : any) {
     setTimeout(() => {
         history.push('/home')
     }, 3000);
-
-
     return (
         <ImageBackground
         style={styles.imageBackground}
-         source={require('../../../assets/splashApp.png')}>
+         source={require('../../../assets/dd.jpg')}>
         </ImageBackground>
     )
 }
-
 const styles = StyleSheet.create({
     imageBackground : {
         flex : 1,
